@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/favicon_32x32.png" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <div >
+            <form id="formulario-contato" action="">
+                <header>
+                    <h2>Contate-nos</h2>
+                    <p>Mande suas duvidas, portifolios e ideias.</p>
+                </header>
+
+                <fieldset form="formulario-contato">
+                    <label for="Usuario">Usuario
+                        <input type="text" placeholder="Joãozinho" id="Usuario" autocomplete="name"
+                            form="formulario-contato" name="Usuario" required>
+                    </label>
+
+                    <label for="E-mail">E-mail
+                        <input type="email" placeholder="Joaozinho@gmail.com" id="E-mail" autocomplete="email"
+                            form="formulario-contato" name="usuario" required>
+                    </label>
+
+                    <label for="Telefone">Telefone
+                        <input type="tel" placeholder="+55 (61) 3030 - 0000" id="Telefone" autocomplete="tel"
+                            form="formulario-contato" name="Telefone" required>
+                    </label>
+
+                    <label for="Mensagem">Mensagem
+                        <input type="text" placeholder="Olá estou interesado" id="Mensagem" form="formulario-contato"
+                            name="Telefone" required>
+                    </label>
+                </fieldset>
+
+                <div>
+                    <button type="submit" form="formulario-contato" autofocus>ENVIAR</button>
+                </div>
+
+            </form>
+        </div>
+
+        <div >
+            <img class="imagem" src="./img/formulario-contato.png" alt="">
+        </div>
+    </main>
+
+</body>
+
+</html>
